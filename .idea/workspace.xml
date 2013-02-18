@@ -6,21 +6,28 @@
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361026796533" ignored="false" />
     <file path="/JDBCTest.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361007528739" ignored="false" />
-    <file path="/CustomerTrackerTest.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361091397852" ignored="false" />
-    <file path="/fragment.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361087724436" ignored="false" />
+    <file path="/CustomerTrackerTest.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361199266426" ignored="false" />
+    <file path="/fragment.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361175855767" ignored="false" />
     <file path="/CustomerTracker.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361085238477" ignored="false" />
-    <file path="/Customer.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361091344424" ignored="false" />
-    <file path="/DBConnection.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361066291601" ignored="false" />
-    <file path="/DBTransaction.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361089552870" ignored="false" />
+    <file path="/Customer.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361174960576" ignored="false" />
+    <file path="/DBConnection.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361177477255" ignored="false" />
+    <file path="/DBTransaction.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361198883573" ignored="false" />
     <file path="/CustomerValidationChecker.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361085071751" ignored="false" />
-    <file path="/test.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361090814069" ignored="false" />
+    <file path="/test.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361193448239" ignored="false" />
     <file path="/NicknameInvalidException.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361079916816" ignored="false" />
     <file path="/DateOfBirthFormatInvalidException.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361084470126" ignored="false" />
     <file path="/CustomerValidationCheckerTest.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361085086478" ignored="false" />
-    <file path="/CustomerValidatorTest.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361088314085" ignored="false" />
+    <file path="/CustomerValidatorTest.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361174466189" ignored="false" />
     <file path="/ProperNameInvalidException.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361087742677" ignored="false" />
-    <file path="/CustomerValidator.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361087964287" ignored="false" />
-    <file path="/CustomerInfoTracker.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361091007671" ignored="false" />
+    <file path="/CustomerValidator.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361169295950" ignored="false" />
+    <file path="/CustomerInfoTracker.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361196199014" ignored="false" />
+    <file path="/CustomerAccountUpdater.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361175164575" ignored="false" />
+    <file path="/CustomerAccountUpdaterTest.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361196224071" ignored="false" />
+    <file path="/CustomerBalanceInvalid.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361172644643" ignored="false" />
+    <file path="/CustomerTest.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361173502467" ignored="false" />
+    <file path="/ManagerTest.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361198839634" ignored="false" />
+    <file path="/Manager.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361199201431" ignored="false" />
+    <file path="/ManagerValidatorTest.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361199065212" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +42,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -70,6 +76,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -79,30 +86,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CustomerTrackerTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/infoTracker/CustomerTrackerTest.java">
+      <file leaf-file-name="ManagerTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/domain/ManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="17" selection-start="1806" selection-end="1806" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerValidatorTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/validator/CustomerValidatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="49" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
+            <state line="61" column="8" selection-start="2031" selection-end="2426" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#shouldGivenFiveEuroBonusGivenACustomerJoinMoreThanTwoYears#0;class#ManagerTest#0" expanded="false" />
+                <element signature="e#1290#1298#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Customer.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/domain/Customer.java">
+      <file leaf-file-name="ManagerValidatorTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/validator/ManagerValidatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="38" selection-start="1771" selection-end="1771" vertical-scroll-proportion="1.9837587">
+            <state line="23" column="5" selection-start="834" selection-end="834" vertical-scroll-proportion="0.7565789">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,19 +112,19 @@
       <file leaf-file-name="CustomerInfoTracker.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/infoTracker/CustomerInfoTracker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="39" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="41" column="31" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test.java">
+      <file leaf-file-name="DBTransaction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/database/DBTransaction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="8" selection-start="96" selection-end="265" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="118" column="42" selection-start="4030" selection-end="4030" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#4508#4516#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,22 +139,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/DBTransaction.java" />
-        <option value="$PROJECT_DIR$/src/DateOfBirthFormatInvalidException.java" />
-        <option value="$PROJECT_DIR$/test/CustomerTrackerTest.java" />
-        <option value="$PROJECT_DIR$/src/validator/CustomerValidationChecker.java" />
-        <option value="$PROJECT_DIR$/test/CustomerValidationCheckerTest.java" />
-        <option value="$PROJECT_DIR$/test/CustomerValidatorTest.java" />
-        <option value="$PROJECT_DIR$/src/CustomerTracker.java" />
-        <option value="$PROJECT_DIR$/src/CustomerInfoTracker.java" />
-        <option value="$PROJECT_DIR$/src/exceptions/ProperNameInvalidException.java" />
         <option value="$PROJECT_DIR$/src/validator/CustomerValidator.java" />
+        <option value="$PROJECT_DIR$/src/exceptions/CustomerBalanceInvalid.java" />
+        <option value="$PROJECT_DIR$/test/domain/CustomerTest.java" />
         <option value="$PROJECT_DIR$/test/validator/CustomerValidatorTest.java" />
-        <option value="$PROJECT_DIR$/src/database/DBTransaction.java" />
-        <option value="$PROJECT_DIR$/test/test.java" />
-        <option value="$PROJECT_DIR$/src/infoTracker/CustomerInfoTracker.java" />
         <option value="$PROJECT_DIR$/src/domain/Customer.java" />
+        <option value="$PROJECT_DIR$/src/infoTracker/CustomerAccountUpdater.java" />
+        <option value="$PROJECT_DIR$/src/database/DBConnection.java" />
+        <option value="$PROJECT_DIR$/test/test.java" />
+        <option value="$PROJECT_DIR$/test/infoTracker/CustomerAccountUpdaterTest.java" />
+        <option value="$PROJECT_DIR$/src/infoTracker/CustomerInfoTracker.java" />
+        <option value="$PROJECT_DIR$/src/database/DBTransaction.java" />
+        <option value="$PROJECT_DIR$/test/domain/ManagerTest.java" />
+        <option value="$PROJECT_DIR$/test/validator/ManagerValidatorTest.java" />
+        <option value="$PROJECT_DIR$/src/domain/Manager.java" />
         <option value="$PROJECT_DIR$/test/infoTracker/CustomerTrackerTest.java" />
+        <option value="$PROJECT_DIR$/test/infoTracker/CustomerInfoTrackerTest.java" />
       </list>
     </option>
   </component>
@@ -198,7 +197,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -278,6 +276,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="infoTracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BankingSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BankingSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -373,6 +389,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -384,21 +401,23 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="editor.preferences.smartKeys" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jars for classpath/mysql-connector-java-5.1.18-bin.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../joda-time-2.1/joda-time-2.1.jar!/" />
     <property name="project.structure.side.proportion" value="0.11235955" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="domain" />
       <recent name="exceptions" />
+      <recent name="infoTracker" />
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -407,7 +426,63 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerTrackerTest">
+  <component name="RunManager" selected="JUnit.ManagerTest.shouldGivenFiveEuroBonusGivenACustomerJoinMoreThanTwoYears">
+    <configuration default="false" name="CustomerAccountUpdaterTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="infoTracker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="BankingSystem" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="infoTracker" />
+      <option name="MAIN_CLASS_NAME" value="infoTracker.CustomerAccountUpdaterTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CustomerInfoTrackerTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="infoTracker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="BankingSystem" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="infoTracker" />
+      <option name="MAIN_CLASS_NAME" value="infoTracker.CustomerInfoTrackerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="CustomerValidatorTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -436,19 +511,19 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="CustomerTrackerTest.shouldAddTwoCustomersWithSameProperNameSuccessfully" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="ManagerTest.shouldGivenFiveEuroBonusGivenACustomerJoinMoreThanTwoYears" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="infoTracker.*" />
+          <option name="PATTERN" value="domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="BankingSystem" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="infoTracker" />
-      <option name="MAIN_CLASS_NAME" value="infoTracker.CustomerTrackerTest" />
-      <option name="METHOD_NAME" value="shouldAddTwoCustomersWithSameProperNameSuccessfully" />
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.ManagerTest" />
+      <option name="METHOD_NAME" value="shouldGivenFiveEuroBonusGivenACustomerJoinMoreThanTwoYears" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -464,65 +539,20 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="CustomerTrackerTest" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="ManagerTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="infoTracker.*" />
+          <option name="PATTERN" value="domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="BankingSystem" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="infoTracker" />
-      <option name="MAIN_CLASS_NAME" value="infoTracker.CustomerTrackerTest" />
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.ManagerTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="BankingSystem" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CustomerTrackerTest.shouldAddTodayAsTheDateWhenUserJoinIn" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="infoTracker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="BankingSystem" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="infoTracker" />
-      <option name="MAIN_CLASS_NAME" value="infoTracker.CustomerTrackerTest" />
-      <option name="METHOD_NAME" value="shouldAddTodayAsTheDateWhenUserJoinIn" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -551,19 +581,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -590,6 +607,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -629,19 +659,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CustomerValidatorTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CustomerTrackerTest.shouldAddTwoCustomersWithSameProperNameSuccessfully" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CustomerTrackerTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CustomerTrackerTest.shouldAddTodayAsTheDateWhenUserJoinIn" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CustomerAccountUpdaterTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CustomerInfoTrackerTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CustomerValidatorTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ManagerTest.shouldGivenFiveEuroBonusGivenACustomerJoinMoreThanTwoYears" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ManagerTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CustomerTrackerTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CustomerTrackerTest.shouldAddTodayAsTheDateWhenUserJoinIn" />
-        <item index="2" class="java.lang.String" itemvalue="Application.test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CustomerValidatorTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CustomerTrackerTest.shouldAddTwoCustomersWithSameProperNameSuccessfully" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ManagerTest.shouldGivenFiveEuroBonusGivenACustomerJoinMoreThanTwoYears" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CustomerValidatorTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CustomerInfoTrackerTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CustomerAccountUpdaterTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ManagerTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -674,7 +704,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329927" sideWeight="0.4978479" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27445257" sideWeight="0.50071734" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -685,8 +715,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.670073" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329927" sideWeight="0.49713057" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.72554743" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27445257" sideWeight="0.49426112" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -754,62 +784,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/exceptions/NicknameInvalidException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="23" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="898" column="16" selection-start="38098" selection-end="38098" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="13" selection-start="925" selection-end="925" vertical-scroll-proportion="0.33280757">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exceptions/DateOfBirthFormatInvalidException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="23" selection-start="152" selection-end="152" vertical-scroll-proportion="0.04731861">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/DBConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/src.zip!/java/sql/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="53" selection-start="3582" selection-end="3582" vertical-scroll-proportion="-0.99019605">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/src.zip!/java/sql/PreparedStatement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="14" selection-start="2347" selection-end="2347" vertical-scroll-proportion="0.7377451">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="28" selection-start="6315" selection-end="6315" vertical-scroll-proportion="0.7201018">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exceptions/ProperNameInvalidException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="21" selection-start="157" selection-end="157" vertical-scroll-proportion="0.13921113">
@@ -817,57 +791,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/exceptions/CustomerBalanceInvalid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="34" selection-end="34" vertical-scroll-proportion="0.06396589">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/validator/CustomerValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="58" selection-start="386" selection-end="386" vertical-scroll-proportion="0.4176334">
+        <state line="17" column="26" selection-start="479" selection-end="479" vertical-scroll-proportion="0.54371">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/DBTransaction.java">
+    <entry file="file://$PROJECT_DIR$/src/domain/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="43" selection-start="922" selection-end="922" vertical-scroll-proportion="1.0440835">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="8" selection-start="96" selection-end="265" vertical-scroll-proportion="0.0">
+        <state line="79" column="47" selection-start="2415" selection-end="2415" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/infoTracker/CustomerInfoTracker.java">
+    <entry file="file://$PROJECT_DIR$/src/infoTracker/CustomerAccountUpdater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="39" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="29" column="32" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/infoTracker/CustomerTrackerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/database/DBConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="17" selection-start="1806" selection-end="1806" vertical-scroll-proportion="0.0">
+        <state line="26" column="18" selection-start="651" selection-end="651" vertical-scroll-proportion="0.8315565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../joda-time-2.1/joda-time-2.1-sources.jar!/org/joda/time/DateMidnight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="247" column="11" selection-start="9023" selection-end="9023" vertical-scroll-proportion="0.3326226">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/infoTracker/CustomerAccountUpdaterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="39" selection-start="476" selection-end="502" vertical-scroll-proportion="0.032894738">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/validator/CustomerValidatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="49" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
+        <state line="10" column="34" selection-start="278" selection-end="299" vertical-scroll-proportion="0.13157895">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="48" selection-start="292" selection-end="292" vertical-scroll-proportion="0.28784648">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/Customer.java">
+    <entry file="file://$PROJECT_DIR$/src/database/DBTransaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="38" selection-start="1771" selection-end="1771" vertical-scroll-proportion="1.9837587">
+        <state line="118" column="42" selection-start="4030" selection-end="4030" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#4508#4516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/domain/ManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="8" selection-start="2031" selection-end="2426" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="method#shouldGivenFiveEuroBonusGivenACustomerJoinMoreThanTwoYears#0;class#ManagerTest#0" expanded="false" />
+            <element signature="e#1290#1298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="12" selection-start="187" selection-end="187" vertical-scroll-proportion="0.26439232">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/infoTracker/CustomerInfoTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="31" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/infoTracker/CustomerInfoTrackerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="25" selection-start="506" selection-end="506" vertical-scroll-proportion="0.032894738">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/validator/ManagerValidatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="5" selection-start="834" selection-end="834" vertical-scroll-proportion="0.7565789">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -954,7 +987,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>mysql-connector-java-5.1.18-bin</last-edited>
+          <last-edited>joda-time-2.1-javadoc</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

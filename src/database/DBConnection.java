@@ -4,9 +4,9 @@ import java.sql.*;
 
 public class DBConnection {
 
-    private Connection conn;
+    private static Connection conn;
 
-    public Connection getConnection() {
+    public static Connection getConnection() {
         String driver = "com.mysql.jdbc.Driver";
         String url = "jdbc:mysql://127.0.0.1:3306/test_01";
         String username = "root";
@@ -24,7 +24,7 @@ public class DBConnection {
         return conn;
     }
 
-    public void disconnect() {
+    public static void disconnect() {
         try {
             conn.close();
         } catch (SQLException e) {

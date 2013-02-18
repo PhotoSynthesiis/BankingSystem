@@ -1,8 +1,8 @@
 package infoTracker;
 
-import database.DBConnection;
 import database.DBTransaction;
 import domain.Customer;
+import exceptions.CustomerBalanceInvalid;
 import exceptions.NicknameInvalidException;
 import exceptions.ProperNameInvalidException;
 import org.junit.AfterClass;
@@ -11,18 +11,13 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
-import java.sql.Connection;
 import java.sql.Date;
 import java.util.Calendar;
 
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertThat;
+import static org.junit.Assert.*;
 
-public class CustomerTrackerTest {
-    private static DBConnection dbConnection;
-    private static Connection connection;
+public class CustomerInfoTrackerTest {
     private static CustomerInfoTracker tracker;
     private static DBTransaction transaction;
 
@@ -31,10 +26,9 @@ public class CustomerTrackerTest {
 
     @BeforeClass
     public static void connectWithMySQL() {
-        dbConnection = new DBConnection();
-        connection = dbConnection.getConnection();
-        transaction = new DBTransaction(connection);
-        tracker = new CustomerInfoTracker(transaction);
+        transaction = new DBTransaction();
+        tracker = new CustomerInfoTracker();
+        tracker.setTransaction(transaction);
     }
 
     @AfterClass
@@ -43,7 +37,8 @@ public class CustomerTrackerTest {
         tracker.deleteCustomer("nick");
         tracker.deleteCustomer("adam");
         tracker.deleteCustomer("gaolinsman");
-        dbConnection.disconnect();
+        tracker.deleteCustomer("robin");
+        transaction.disconnect();
     }
 
     @Test
@@ -84,18 +79,22 @@ public class CustomerTrackerTest {
     @Test
     public void shouldAddTwoCustomersWithSameProperNameSuccessfully() throws NicknameInvalidException, ProperNameInvalidException {
         String nickname1 = "nick";
+        Date dateOfBirth1 = new Date(Date.valueOf("1989-12-25").getTime());
         String properName1 = "Zhang Yue";
 
         Customer customer1 = new Customer();
         customer1.setNickname(nickname1);
         customer1.setProperName(properName1);
+        customer1.setDateOfBirth(dateOfBirth1);
 
         String nickname2 = "adam";
+        Date dateOfBirth2 = new Date(Date.valueOf("1980-11-25").getTime());
         String properName3 = "Zhang Yue";
 
         Customer customer2 = new Customer();
         customer2.setNickname(nickname2);
         customer2.setProperName(properName3);
+        customer2.setDateOfBirth(dateOfBirth2);
 
         tracker.addCustomer(customer1);
         tracker.addCustomer(customer2);
@@ -121,5 +120,21 @@ public class CustomerTrackerTest {
         java.sql.Date today = new Date(utilDate.getTime());
 
         assertThat(customer.getJoiningDate().toString(), is(today.toString()));
+    }
+
+    @Test
+    public void shouldDepositMoneyForTheFirstTimeSuccessfully() throws NicknameInvalidException, ProperNameInvalidException, CustomerBalanceInvalid {
+        String nickname = "robin";
+        Date dateOfBirth = new Date(Date.valueOf("1983-7-22").getTime());
+        String properName = "Robin Van Persie";
+        double money = 100.00;
+
+        Customer customer = new Customer();
+        customer.setNickname(nickname);
+        customer.setDateOfBirth(dateOfBirth);
+        customer.setProperName(properName);
+        customer.setBalance(money);
+
+        tracker.addCustomer(customer);
     }
 }

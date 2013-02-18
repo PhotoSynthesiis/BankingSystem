@@ -5,11 +5,15 @@ import domain.Customer;
 
 import java.sql.Date;
 import java.util.Calendar;
+import java.util.List;
 
 public class CustomerInfoTracker {
     private DBTransaction transaction;
 
-    public CustomerInfoTracker(DBTransaction transaction) {
+    public CustomerInfoTracker() {
+    }
+
+    public void setTransaction(DBTransaction transaction) {
         this.transaction = transaction;
     }
 
@@ -28,5 +32,13 @@ public class CustomerInfoTracker {
 
     public void deleteCustomer(String nickname) {
         transaction.deleteCustomer(nickname);
+    }
+
+    public List<String> getLoyalCustomers() {
+        return transaction.getLoyalCustomers();
+    }
+
+    public void addBonusToLoyalCustomer() {
+        transaction.addBonusToLoyalCustomer();
     }
 }

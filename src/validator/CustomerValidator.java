@@ -14,4 +14,10 @@ public class CustomerValidator {
 
         return  pattern.matcher(properName).matches();
     }
+
+    public static boolean isBalanceValid(double balance) {
+        Pattern pattern = Pattern.compile("^(0|([1-9]\\d*))(\\.\\d+)?$");
+
+        return pattern.matcher(String.valueOf(balance)).matches();
+    }
 }
