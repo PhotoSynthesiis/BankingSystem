@@ -26,8 +26,9 @@ public class DBTransaction {
         String properName = customer.getProperName();
         Date joiningDate = customer.getJoiningDate();
         double balance = customer.getBalance();
+        boolean isBonusAdded = customer.isBonusAdded();
 
-        String sql = "insert into userinfo values (?, ?, ?, ?, ?)";
+        String sql = "insert into userinfo values (?, ?, ?, ?, ?, ?)";
 
         try {
             pstmt = connection.prepareStatement(sql);
@@ -36,6 +37,7 @@ public class DBTransaction {
             pstmt.setString(3, properName);
             pstmt.setObject(4, joiningDate);
             pstmt.setDouble(5, balance);
+            pstmt.setBoolean(6, isBonusAdded);
 
             pstmt.executeUpdate();
         } catch (SQLException e) {
@@ -96,6 +98,7 @@ public class DBTransaction {
         Date joiningDate;
         String nickname;
         double beforeBalance, afterBalance;
+
         String sql = "select * from userinfo";
         String sql2 = "update userinfo set balance = ? where nickname = ?";
 
@@ -109,10 +112,10 @@ public class DBTransaction {
                 nickname = resultSet.getString(1);
                 joiningDate = resultSet.getDate(4);
                 beforeBalance = resultSet.getDouble(5);
+
                 afterBalance = beforeBalance + bonus;
 
                 if (Years.yearsBetween(new DateTime(joiningDate), new DateTime(today)).getYears() >= 2) {
-                    System.out.println(nickname);
                     pstmt = connection.prepareStatement(sql2);
                     pstmt.setDouble(1, afterBalance);
                     pstmt.setString(2, nickname);
@@ -152,5 +155,51 @@ public class DBTransaction {
         }
 
         return customers;
+    }
+
+    public void addBalance(double money, Customer customer) {
+        String sql = "update userinfo set balance = ? where nickname = ?";
+
+        try {
+            pstmt = connection.prepareStatement(sql);
+            pstmt.setDouble(1, money);
+            pstmt.setString(2, customer.getNickname());
+            pstmt.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void withdrawBalance(double money2, Customer customer) throws CustomerBalanceInvalid {
+        double initialBalance = 0, afterBalance;
+        String sql1 = "select balance from userinfo where nickname = ?";
+        String sql2 = "update userinfo set balance = ? where nickname = ?";
+        String nickname = customer.getNickname();
+
+        ResultSet resultSet;
+
+        try {
+            pstmt = connection.prepareStatement(sql1);
+            pstmt.setString(1, nickname);
+            resultSet = pstmt.executeQuery();
+
+            while (resultSet.next()) {
+                initialBalance = resultSet.getDouble(1);
+            }
+
+            afterBalance = initialBalance - money2;
+
+            if (afterBalance < 0) {
+                throw new CustomerBalanceInvalid("YOU CAN NOT WITHDRAW MONEY MORE THAT YOU HAVE");
+            }
+
+            pstmt = connection.prepareStatement(sql2);
+            pstmt.setDouble(1, afterBalance);
+            pstmt.setString(2, nickname);
+            pstmt.executeUpdate();
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 }

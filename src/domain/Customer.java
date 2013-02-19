@@ -1,9 +1,11 @@
 package domain;
 
+import database.DBTransaction;
 import exceptions.CustomerBalanceInvalid;
 import exceptions.NicknameInvalidException;
 import exceptions.ProperNameInvalidException;
 import infoTracker.CustomerAccountUpdater;
+import infoTracker.CustomerInfoTracker;
 import validator.CustomerValidator;
 
 import java.sql.Date;
@@ -14,6 +16,16 @@ public class Customer {
     private String properName;
     private Date joiningDate;
     private double balance;
+    private boolean isBonusAdded;
+    private boolean loyalCustomer;
+
+    private CustomerInfoTracker tracker;
+    private DBTransaction transaction;
+    public Customer() {
+        tracker = new CustomerInfoTracker();
+        transaction = new DBTransaction();
+        tracker.setTransaction(transaction);
+    }
 
     public void setNickname(String nickname) throws NicknameInvalidException {
         if (CustomerValidator.isNicknameValid(nickname)) {
@@ -56,6 +68,7 @@ public class Customer {
     }
 
     public double getBalance() {
+        balance = tracker.getCustomer(getNickname()).getBalance();
         return balance;
     }
 
@@ -67,20 +80,42 @@ public class Customer {
         }
     }
 
-    public void addBalance(double balance) throws CustomerBalanceInvalid {
+    public void deposit(double balance) throws CustomerBalanceInvalid {
         if (CustomerValidator.isBalanceValid(balance)) {
-            CustomerAccountUpdater.addBalance(getBalance() + balance, this);
+            double actualBalance;
+            if (this.isLoyalCustomer() && !this.isBonusAdded()) {
+                actualBalance = getBalance() + balance + 5;
+            } else {
+                actualBalance = getBalance() + balance;
+            }
+            CustomerAccountUpdater.addBalance(actualBalance, this);
         } else {
             throw new CustomerBalanceInvalid("BALANCE MUST BE NON-NEGATIVE NUMBERS.");
         }
     }
 
-    public void withdrawBalance(double balance) throws CustomerBalanceInvalid {
+    public void withdraw(double balance) throws CustomerBalanceInvalid {
         if (CustomerValidator.isBalanceValid(balance)) {
             CustomerAccountUpdater.withdrawBalance(balance, this);
         } else {
             throw new CustomerBalanceInvalid("BALANCE MUST BE NON-NEGATIVE NUMBERS.");
         }
+    }
+
+    public void setIsBonusAdded(boolean isBonusAdded) {
+        this.isBonusAdded = isBonusAdded;
+    }
+
+    public boolean isBonusAdded() {
+        return isBonusAdded;
+    }
+
+    public boolean isLoyalCustomer() {
+        return loyalCustomer;
+    }
+
+    public void setIsLoyalCustomer(boolean loyalCustomer) {
+        this.loyalCustomer = loyalCustomer;
     }
 
     @Override

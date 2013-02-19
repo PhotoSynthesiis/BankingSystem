@@ -82,6 +82,6 @@ public class CustomerValidatorTest {
 
         double money = -100;
         Customer customer = new Customer();
-        customer.withdrawBalance(money);
+        customer.withdraw(money);
     }
 }

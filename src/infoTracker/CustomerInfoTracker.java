@@ -39,6 +39,11 @@ public class CustomerInfoTracker {
     }
 
     public void addBonusToLoyalCustomer() {
-        transaction.addBonusToLoyalCustomer();
+        List<String> loyalCustomers = getLoyalCustomers();
+        for (int i = 0; i < loyalCustomers.size(); i++) {
+            if(!getCustomer(loyalCustomers.get(i)).isBonusAdded()) {
+                transaction.addBonusToLoyalCustomer();
+            }
+        }
     }
 }

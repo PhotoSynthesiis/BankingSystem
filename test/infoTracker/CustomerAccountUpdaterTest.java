@@ -56,7 +56,7 @@ public class CustomerAccountUpdaterTest {
         tracker.addCustomer(customer);
 
         double money2 = 101.00;
-        customer.addBalance(money2);
+        customer.deposit(money2);
 
         double expectedBalance = 201.00;
 
@@ -79,7 +79,7 @@ public class CustomerAccountUpdaterTest {
         tracker.addCustomer(customer);
 
         double money2 = 10;
-        customer.withdrawBalance(money2);
+        customer.withdraw(money2);
 
         double expectedBalance = 90.00;
         assertThat(tracker.getCustomer(nickname).getBalance(), is(expectedBalance));
@@ -103,7 +103,7 @@ public class CustomerAccountUpdaterTest {
         tracker.addCustomer(customer);
 
         double money2 = 110;
-        customer.withdrawBalance(money2);
+        customer.withdraw(money2);
     }
 
     @Test
@@ -122,7 +122,7 @@ public class CustomerAccountUpdaterTest {
         tracker.addCustomer(customer);
 
         double money2 = 100;
-        customer.withdrawBalance(money2);
+        customer.withdraw(money2);
 
         double expectedBalance = 0;
         assertThat(tracker.getCustomer(nickname).getBalance(), is(expectedBalance));

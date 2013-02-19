@@ -2,9 +2,11 @@ package infoTracker;
 
 import database.DBTransaction;
 import domain.Customer;
+import exceptions.AddBonusException;
 import exceptions.CustomerBalanceInvalid;
 import exceptions.NicknameInvalidException;
 import exceptions.ProperNameInvalidException;
+import org.hamcrest.Matcher;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Rule;
@@ -38,19 +40,23 @@ public class CustomerInfoTrackerTest {
         tracker.deleteCustomer("adam");
         tracker.deleteCustomer("gaolinsman");
         tracker.deleteCustomer("robin");
+        tracker.deleteCustomer("lights");
         transaction.disconnect();
     }
 
     @Test
-    public void shouldAddNewCustomerSuccessfullyWithoutInvalidCharacters() throws NicknameInvalidException, ProperNameInvalidException {
+    public void shouldAddNewCustomerSuccessfullyWithoutInvalidCharacters() throws NicknameInvalidException, ProperNameInvalidException, CustomerBalanceInvalid {
         String nickname = "poldi";
         Date dateOfBirth = new Date(Date.valueOf("1986-12-25").getTime());
         String properName = "Lucas Podolski";
+        double balance = 100.00;
 
         Customer customer = new Customer();
         customer.setNickname(nickname);
         customer.setDateOfBirth(dateOfBirth);
         customer.setProperName(properName);
+        customer.setBalance(balance);
+        customer.setIsBonusAdded(true);
 
         tracker.addCustomer(customer);
         assertThat(tracker.getCustomer(nickname), is(customer));
@@ -66,6 +72,8 @@ public class CustomerInfoTrackerTest {
         customer.setNickname(nickname);
         customer.setDateOfBirth(dateOfBirth);
         customer.setProperName(properName);
+        customer.setIsBonusAdded(true);
+
 
         tracker.addCustomer(customer);
         assertThat(tracker.getCustomer(nickname), is(customer));
@@ -86,6 +94,8 @@ public class CustomerInfoTrackerTest {
         customer1.setNickname(nickname1);
         customer1.setProperName(properName1);
         customer1.setDateOfBirth(dateOfBirth1);
+        customer1.setIsBonusAdded(true);
+
 
         String nickname2 = "adam";
         Date dateOfBirth2 = new Date(Date.valueOf("1980-11-25").getTime());
@@ -95,6 +105,8 @@ public class CustomerInfoTrackerTest {
         customer2.setNickname(nickname2);
         customer2.setProperName(properName3);
         customer2.setDateOfBirth(dateOfBirth2);
+        customer2.setIsBonusAdded(true);
+
 
         tracker.addCustomer(customer1);
         tracker.addCustomer(customer2);
@@ -112,6 +124,7 @@ public class CustomerInfoTrackerTest {
         customer.setNickname(nickname);
         customer.setDateOfBirth(dateOfBirth);
         customer.setProperName(properName);
+        customer.setIsBonusAdded(true);
 
         tracker.addCustomer(customer);
 
@@ -125,8 +138,26 @@ public class CustomerInfoTrackerTest {
     @Test
     public void shouldDepositMoneyForTheFirstTimeSuccessfully() throws NicknameInvalidException, ProperNameInvalidException, CustomerBalanceInvalid {
         String nickname = "robin";
-        Date dateOfBirth = new Date(Date.valueOf("1983-7-22").getTime());
+        Date dateOfBirth = new Date(Date.valueOf("1983-07-22").getTime());
         String properName = "Robin Van Persie";
+        double money = 100.00;
+
+        Customer customer = new Customer();
+        customer.setNickname(nickname);
+        customer.setDateOfBirth(dateOfBirth);
+        customer.setProperName(properName);
+        customer.setBalance(money);
+        customer.setIsBonusAdded(true);
+
+
+        tracker.addCustomer(customer);
+    }
+
+//    @Test
+    public void shouldGetListOfCustomersWhoHaveBeenGivenBonus() throws NicknameInvalidException, ProperNameInvalidException, CustomerBalanceInvalid {
+        String nickname = "lights";
+        Date dateOfBirth = new Date(Date.valueOf("1980-07-01").getTime());
+        String properName = "Frank Lampard";
         double money = 100.00;
 
         Customer customer = new Customer();
@@ -136,5 +167,28 @@ public class CustomerInfoTrackerTest {
         customer.setBalance(money);
 
         tracker.addCustomer(customer);
+        tracker.addBonusToLoyalCustomer();
+    }
+
+    @Test
+    public void shouldNotAddOBonusToLoyalCustomersWhoHaveGivenBonus() throws NicknameInvalidException, ProperNameInvalidException, CustomerBalanceInvalid {
+
+        String nickname = "lights";
+        Date dateOfBirth = new Date(Date.valueOf("1980-07-01").getTime());
+        String properName = "Frank Lampard";
+        double money = 100.00;
+
+        Customer customer = new Customer();
+        customer.setNickname(nickname);
+        customer.setDateOfBirth(dateOfBirth);
+        customer.setProperName(properName);
+        customer.setBalance(money);
+        customer.setIsBonusAdded(true);
+
+        tracker.addCustomer(customer);
+        tracker.addBonusToLoyalCustomer();
+        double expectedBalance = 100.00;
+
+        assertThat(tracker.getCustomer(nickname).getBalance(), is(expectedBalance));
     }
 }
