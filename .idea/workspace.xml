@@ -7,7 +7,7 @@
     <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361026796533" ignored="false" />
     <file path="/JDBCTest.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361007528739" ignored="false" />
     <file path="/CustomerTrackerTest.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361199266426" ignored="false" />
-    <file path="/fragment.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361238479334" ignored="false" />
+    <file path="/fragment.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361459385101" ignored="false" />
     <file path="/CustomerTracker.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361085238477" ignored="false" />
     <file path="/Customer.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361245403214" ignored="false" />
     <file path="/DBConnection.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361177477255" ignored="false" />
@@ -24,12 +24,14 @@
     <file path="/CustomerAccountUpdater.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361243917295" ignored="false" />
     <file path="/CustomerAccountUpdaterTest.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361196224071" ignored="false" />
     <file path="/CustomerBalanceInvalid.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361172644643" ignored="false" />
-    <file path="/CustomerTest.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361244983728" ignored="false" />
+    <file path="/CustomerTest.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361457730805" ignored="false" />
     <file path="/ManagerTest.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361238875722" ignored="false" />
     <file path="/Manager.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361199201431" ignored="false" />
     <file path="/ManagerValidatorTest.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361199065212" ignored="false" />
     <file path="/AddBonusException.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361238500642" ignored="false" />
     <file path="/CustomerInfoTrackerTest.java" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361242262907" ignored="false" />
+    <file path="/build.gradle" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361457806689" ignored="false" />
+    <file path="/index.jsp" changelist="23dd9bcb-e812-4e43-be4a-16f8189e55e9" time="1361458055184" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,102 @@
     <favorites_list name="BankingSystem" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="CustomerTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/banking/domain/entity/CustomerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="11" selection-start="860" selection-end="860" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBConnection.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/banking/database/DBConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="36" selection-start="189" selection-end="200" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Customer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/banking/domain/entity/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="90" column="30" selection-start="2876" selection-end="2876" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="method#equals#0;class#Customer#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerRepository.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/banking/domain/repository/CustomerRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="23" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBTransaction.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/banking/database/DBTransaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="145" column="15" selection-start="4788" selection-end="4788" vertical-scroll-proportion="-0.2176039">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountRepositoryTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/banking/domain/repository/AccountRepositoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="36" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="21" selection-start="266" selection-end="266" vertical-scroll-proportion="-9.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="24" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountRepository.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/banking/domain/repository/AccountRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="30" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -97,29 +194,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/exceptions/CustomerBalanceInvalid.java" />
-        <option value="$PROJECT_DIR$/test/validator/CustomerValidatorTest.java" />
-        <option value="$PROJECT_DIR$/src/database/DBConnection.java" />
-        <option value="$PROJECT_DIR$/test/test.java" />
-        <option value="$PROJECT_DIR$/test/infoTracker/CustomerAccountUpdaterTest.java" />
-        <option value="$PROJECT_DIR$/test/validator/ManagerValidatorTest.java" />
-        <option value="$PROJECT_DIR$/test/infoTracker/CustomerTrackerTest.java" />
-        <option value="$PROJECT_DIR$/src/exceptions/AddBonusException.java" />
-        <option value="$PROJECT_DIR$/src/domain/Manager.java" />
-        <option value="$PROJECT_DIR$/test/infoTracker/CustomerInfoTrackerTest.java" />
         <option value="$PROJECT_DIR$/src/infoTracker/CustomerInfoTracker.java" />
         <option value="$PROJECT_DIR$/src/database/DBTransaction.java" />
         <option value="$PROJECT_DIR$/src/infoTracker/CustomerAccountUpdater.java" />
         <option value="$PROJECT_DIR$/test/domain/ManagerTest.java" />
         <option value="$PROJECT_DIR$/test/domain/CustomerTest.java" />
         <option value="$PROJECT_DIR$/src/domain/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/test/domain/CustomerTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/infoTracker/CustomerInfoTracker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/infoTracker/CustomerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/entity/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/infoTracker/CustomerAccountUpdater.java" />
+        <option value="$PROJECT_DIR$/src/main/java/infoTracker/AccountRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/repository/AccountRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/banking/domain/repository/AccountRepository.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="805" />
+    <option name="width" value="1280" />
+    <option name="height" value="732" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -134,7 +231,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectStructureProblems">
     <ignored-problems>
@@ -154,8 +251,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -163,15 +258,9 @@
               <option name="myItemId" value="BankingSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BankingSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BankingSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -183,10 +272,6 @@
               <option name="myItemId" value="BankingSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -195,6 +280,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="BankingSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -212,21 +301,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="validator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BankingSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BankingSystem" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -234,21 +309,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="infoTracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BankingSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BankingSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -270,7 +331,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="validator" />
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repository" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -288,7 +361,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="infoTracker" />
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -305,6 +390,14 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -317,6 +410,44 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="banking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BankingSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BankingSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="banking" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -335,6 +466,86 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="banking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BankingSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BankingSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="banking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BankingSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BankingSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="banking" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -344,28 +555,55 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BankingSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BankingSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BankingSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BankingSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.banking.database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_directory_selection" value="$PROJECT_DIR$/test/infoTracker" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/banking/domain/validator" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.1179941" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="editor.preferences.smartKeys" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../joda-time-2.1/joda-time-2.1.jar!/" />
-    <property name="project.structure.side.proportion" value="0.11235955" />
+    <property name="recentsLimit" value="5" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -375,40 +613,21 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="infoTracker" />
-      <recent name="validator" />
-      <recent name="" />
+      <recent name="com.banking.domain.validator" />
+      <recent name="com.banking.domain.repository" />
+      <recent name="com.banking.domain.entity" />
+      <recent name="com.banking" />
+      <recent name="com.banking.domain" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerTest">
-    <configuration default="false" name="CustomerInfoTrackerTest.shouldNotAddOBonusToLoyalCustomersWhoHaveGivenBonus" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="infoTracker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="BankingSystem" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="infoTracker" />
-      <option name="MAIN_CLASS_NAME" value="infoTracker.CustomerInfoTrackerTest" />
-      <option name="METHOD_NAME" value="shouldNotAddOBonusToLoyalCustomersWhoHaveGivenBonus" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.CustomerTest.shouldAddBonusToLoyalCustomerOnce">
     <configuration default="false" name="CustomerTest.shouldAddBonusToLoyalCustomerWhenTheyAreDepositing" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -419,8 +638,8 @@
       <module name="BankingSystem" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="domain" />
-      <option name="MAIN_CLASS_NAME" value="domain.CustomerTest" />
+      <option name="PACKAGE_NAME" value="com.banking.domain.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.banking.domain.entity.CustomerTest" />
       <option name="METHOD_NAME" value="shouldAddBonusToLoyalCustomerWhenTheyAreDepositing" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -437,7 +656,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="CustomerAccountUpdaterTest" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="AccountRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="infoTracker.*" />
@@ -447,8 +666,8 @@
       <module name="BankingSystem" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="infoTracker" />
-      <option name="MAIN_CLASS_NAME" value="infoTracker.CustomerAccountUpdaterTest" />
+      <option name="PACKAGE_NAME" value="com.banking.domain.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.banking.domain.repository.AccountRepositoryTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -475,8 +694,8 @@
       <module name="BankingSystem" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="domain" />
-      <option name="MAIN_CLASS_NAME" value="domain.CustomerTest" />
+      <option name="PACKAGE_NAME" value="com.banking.domain.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.banking.domain.entity.CustomerTest" />
       <option name="METHOD_NAME" value="shouldAddBonusToLoyalCustomerOnce" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -503,10 +722,33 @@
       <module name="BankingSystem" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="domain" />
-      <option name="MAIN_CLASS_NAME" value="domain.CustomerTest" />
+      <option name="PACKAGE_NAME" value="com.banking.domain.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.banking.domain.entity.CustomerTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CustomerValidatorTest.shouldThrowExceptionWhenTryToSetCustomerNicknameWithInvalidSpecialCharacters" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="BankingSystem" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.banking.domain.validator" />
+      <option name="MAIN_CLASS_NAME" value="com.banking.domain.validator.CustomerValidatorTest" />
+      <option name="METHOD_NAME" value="shouldThrowExceptionWhenTryToSetCustomerNicknameWithInvalidSpecialCharacters" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -613,19 +855,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CustomerInfoTrackerTest.shouldNotAddOBonusToLoyalCustomersWhoHaveGivenBonus" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CustomerTest.shouldAddBonusToLoyalCustomerWhenTheyAreDepositing" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CustomerAccountUpdaterTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CustomerTest.shouldAddBonusToLoyalCustomerOnce" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CustomerTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CustomerTest.shouldAddBonusToLoyalCustomerWhenTheyAreDepositing" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AccountRepositoryTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CustomerTest.shouldAddBonusToLoyalCustomerOnce" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CustomerTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CustomerValidatorTest.shouldThrowExceptionWhenTryToSetCustomerNicknameWithInvalidSpecialCharacters" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CustomerTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CustomerTest.shouldAddBonusToLoyalCustomerOnce" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CustomerTest.shouldAddBonusToLoyalCustomerOnce" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CustomerValidatorTest.shouldThrowExceptionWhenTryToSetCustomerNicknameWithInvalidSpecialCharacters" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.CustomerTest.shouldAddBonusToLoyalCustomerWhenTheyAreDepositing" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CustomerAccountUpdaterTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CustomerInfoTrackerTest.shouldNotAddOBonusToLoyalCustomersWhoHaveGivenBonus" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CustomerTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AccountRepositoryTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -648,33 +890,33 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="805" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="732" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27445257" sideWeight="0.50071734" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.267423" sideWeight="0.725552" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27444795" sideWeight="0.49426112" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19583932" sideWeight="0.72554743" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27445257" sideWeight="0.49426112" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -738,49 +980,19 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/validator/CustomerValidator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/banking/domain/validator/CustomerValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="26" selection-start="479" selection-end="479" vertical-scroll-proportion="0.54371">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/DBConnection.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/banking/exceptions/AddBonusException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="18" selection-start="651" selection-end="651" vertical-scroll-proportion="0.8315565">
-          <folding />
-        </state>
+        <state line="4" column="21" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0913242" />
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../joda-time-2.1/joda-time-2.1-sources.jar!/org/joda/time/DateMidnight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="247" column="11" selection-start="9023" selection-end="9023" vertical-scroll-proportion="0.3326226" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/validator/CustomerValidatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="34" selection-start="278" selection-end="299" vertical-scroll-proportion="0.13157895">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="48" selection-start="292" selection-end="292" vertical-scroll-proportion="0.28784648">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exceptions/AddBonusException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="21" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0913242">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/validator/ManagerValidatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/banking/domain/validator/ManagerValidatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="45" selection-start="828" selection-end="828" vertical-scroll-proportion="0.5124224">
           <folding>
@@ -789,54 +1001,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/infoTracker/CustomerAccountUpdaterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="39" selection-start="476" selection-end="502" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/DBTransaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="199" column="30" selection-start="6579" selection-end="6579" vertical-scroll-proportion="3.869936">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/infoTracker/CustomerInfoTrackerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/banking/domain/repository/CustomerRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="52" selection-start="983" selection-end="983" vertical-scroll-proportion="-4.4276314">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/infoTracker/CustomerAccountUpdater.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/banking/domain/validator/CustomerValidatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="39" selection-start="456" selection-end="456" vertical-scroll-proportion="0.1826484">
+        <state line="20" column="25" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/Customer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="18" selection-start="1983" selection-end="1983" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="24" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/banking/domain/entity/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="30" selection-start="2876" selection-end="2876" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="method#equals#0;class#Customer#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/infoTracker/CustomerInfoTracker.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/banking/domain/repository/AccountRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="11" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
+        <state line="6" column="30" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/domain/CustomerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/banking/domain/repository/CustomerRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="29" selection-start="878" selection-end="878" vertical-scroll-proportion="0.23291926">
+        <state line="9" column="23" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="21" selection-start="266" selection-end="266" vertical-scroll-proportion="-9.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/banking/domain/repository/AccountRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="36" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/banking/domain/entity/CustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="11" selection-start="860" selection-end="860" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/banking/database/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="36" selection-start="189" selection-end="200" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/banking/database/DBTransaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="15" selection-start="4788" selection-end="4788" vertical-scroll-proportion="-0.2176039">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -850,8 +1099,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.11235955" />
-                <option value="0.5" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -859,11 +1107,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.11235955" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -871,11 +1119,11 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>html5</last-edited>
+          <last-edited>groovy-2.0.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.11235955" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -883,11 +1131,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.11235955" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -899,8 +1147,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.11235955" />
-                <option value="0.5" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -908,11 +1155,11 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20000002" />
               </list>
             </option>
           </splitter-proportions>
@@ -924,7 +1171,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.11235955" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
